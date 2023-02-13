@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ddd;
+    margin: 0;
+}
+
+i {
+    color: #000;
+    font-size: 16px;
+    padding: 4px;
+}
+
+a,
+a:link,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.banner {
+    min-height: 800px;
+    width: auto;
+    background-size: cover !important;
+    position: relative;
+}
+
+.banner:before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: 1;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.banner .banner_text{
+    z-index: 2;
+    position: absolute;
+    top: 32%;
+}
+
+.banner .banner_text span{
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.banner .banner_text h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 80px;
+    line-height: 110px;
+    font-weight: 700;
+}
+
+.banner .banner_text p{
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 650px;
+}
+
+.btn {
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    border-radius: 0;
+    padding: 10px 30px;
+    margin: 15px 0;
+    text-align: center;
+    border: 2px solid transparent;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: .5s;
+    transition: .5s
+}
+
+.style1{
+    background: #ffb606;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.style1:hover{
+    background: #d19400;
+}
+.ban_next{
+    z-index: 9;
+    position: absolute;
+    bottom: 5%;
+    left: 8%;
+}
+
+ .banner_box{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    display: flex;
+}
+ .banner_box:hover{
+    background: #000;
+    padding: 30px;
+}
+
+.banner_box .icon{
+    margin-right: 8px ;
+    
+}
+
+.banner_box .icon i{
+    font-size: 50px;
+    color: #ffb606;
+}
+
+ .banner_box h2{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 500;
+}
+.Choose{
+    background-image: linear-gradient(to right, rgba(255,143,0,1), rgba(255,197,0,1) );
+    padding: 80px 0;
+}
+
+.Choose h2{
+    text-transform: capitalize;
+    color: #000;
+    font-size: 42px;
+    line-height: 64px;
+    font-weight: 600;
+}
+.Choose p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #2c2c2c;
+}
+
+.Choose .Choose_box{
+    padding: 30px;
+    border: 2px dotted #fff;
+    margin-top: 15px;
+    border-radius: 30px;
+    text-align: center;
+    transition: all 0.8s ease-in-out;
+}
+.Choose .Choose_box i{
+    font-size: 50px;
+    color: #fff;
+    margin: 10px;
+}
+.Choose .Choose_box h3{
+    color: #fff;
+    font-size: 50px;
+    line-height: 65px;
+    font-weight: 800;
+}
+.Choose .Choose_box p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+.Choose .Choose_box:hover{
+    background: #fff;
+}
+
+.Choose .Choose_box:hover i{
+    color: #000;
+}
+
+.Choose .Choose_box:hover h3{
+    color: #000;
+}
+
+.Choose .Choose_box:hover p{
+    color: #000;
+}
+.about{
+    padding: 80px 0 150px;
+}
+
+.about h2{
+    font-size: 42px;
+    color: #ff8f00;
+    line-height: 60px;
+    text-transform: capitalize;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+.about p{
+    font-size: 16px;
+    color: #2c2c2c;
+    font-weight: 500;
+    line-height: 30px;
+    padding-bottom: 14px;
+}
+.about .about_image{
+    position: relative;
+}
+
+.aimg1{
+    width: 56%;
+}
+.aimg2{
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 10%;
+    z-index: 1;
+}
+.aimg3{
+    width: 70%;
+    position: absolute;
+    bottom: -80px;
+    left: 20%;
+}
+
+.service{
+    background: #f1f1f1;
+    padding: 60px 0;
+}
+.service h2{
+    font-size: 42px;
+    color: #ffb606;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+.service p{
+    font-size: 18px;
+    color: #2c2c2c;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.service .ser_box{
+    box-shadow: 0 0 10px 0 #dfdfdf;
+    padding: 35px 20px 25px;
+    text-align: center;
+    margin-top: 20px;
+    background: #f1f1f1;
+}
+.service .ser_box:hover{
+    background: #fff;
+    box-shadow: 0 0 10px 2px #c1c1c1;
+}
+
+.service .ser_box h3{
+    font-size: 25px;
+    line-height: 40px;
+    color: #000;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 12px 0;
+}
+.service .ser_box p{
+    font-size: 16px;
+    color: #5e5e5e;
+    line-height: 24px;
+    font-weight: 400;
+}
+.style2{
+    color: #ff8f00;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
