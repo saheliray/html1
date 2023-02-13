@@ -295,4 +295,7 @@ li {
     font-weight: 500;
     text-transform: uppercase;
 }
-
+.footer{
+    background-color: #a15a00;
+    padding: 30px 0;
+}
