@@ -296,6 +296,63 @@ li {
     text-transform: uppercase;
 }
 .footer{
-    background-color: #a15a00;
+    background-color: #000;
     padding: 50px 0;
+}
+
+.footer h3{
+    color: #ff8f00;
+    padding-bottom: 25px;
+}
+
+.footer p{
+    color: #999;
+    list-style: 25px;
+    font-size: 16px;
+}
+.nav-item{
+    font-family: 'Roboto', serif;
+    list-style-type: circle;
+}
+.nav-item::marker {
+    color: #999;
+}
+.nav-link{
+    padding: 8px 0;
+    color: #999;
+    font-size: 18px;
+    line-height: 24px;
+}
+.nav-link:hover{
+    color: #ffb606;
+}
+
+.ul-style{
+    font-family: 'Roboto', serif;
+    padding: 0;
+}
+
+.li-style{
+    padding: 10px 0;
+    color: #999;
+    font-size: 18px;
+    line-height: 24px;
+}
+.a-style{
+    color: #999;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.a-style:hover{
+    color: #d19400;
+}
+.a-style2{
+    color: #999;
+    font-size: 17px;
+    line-height: 24px;
+}
+.a-style2:hover{
+    color: #999;
 }
